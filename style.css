@@ -2,3 +2,38 @@
     margin: 0;
     padding: 0;
 }
+header {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    height: auto;
+    background-image: url('https://cdn.pixabay.com/photo/2023/08/30/13/13/el-chalten-8223303_1280.jpg');
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 450px;
+}
+.header-h1 {
+    color: white;
+    margin-top: 15vh;
+    font-size: large;
+}
+.header-p {
+    font-size: medium;
+    color: white;
+    margin-top: 4vh;
+    margin-bottom: 5vh;
+}
+
+.header-button {
+    margin-bottom: 10vh;
+    color: white;
+    background-color: #3A3232;
+    padding: 4vh;
+    border-radius: 2px;
+    border-color: white;
+    font-size: medium;
+}
+a:hover {
+    background-color: darkgrey;
+    cursor: pointer;
+}
