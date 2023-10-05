@@ -166,4 +166,53 @@ a:hover {
     font-weight: 600;
 }
 
+#blue-text {
+    color: #2690d4;
+}
+.decoration-none {
+    text-decoration: none;
+}
+
+.footer-top {
+    display: flex;
+    color: white;
+    text-align: center;
+    min-height: 40vh;
+    font-family: Arial, Helvetica, sans-serif;;
+}
+.footer-bottom {
+    min-height: 10vh;
+    padding: 3vh;
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+.footer-top-left {
+    padding: 3em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100%;
+    height: auto;
+    background-color: #2690d4;
+}
+.footer-top-right {
+    padding: 3em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #3A3232;
+    width: 100%;
+    height: auto;
+}
+footer.p {
+    font-size: large;
+}
+footer.h2 {
+    font-size: large;
+}
 
